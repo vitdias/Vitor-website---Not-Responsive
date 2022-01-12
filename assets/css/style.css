@@ -31,29 +31,36 @@ li, a, button {
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     text-align:center;
     align-items: center;
     padding: 2.5rem 10%;
+    /* background-color: brown; */
 }
 
-.logo {
+.nav__logo {
     width: 5rem;
     cursor: pointer;
-    margin-top: 1rem;
+    margin-right: 50%;
+    color: rgba(0,136,169,1);;
 }
 
 .nav__links{
     list-style: none;
+    /* background-color: burlywood; */
+    justify-content: space-around;
+    padding: 0px 0.5rem;
 }
 
 .nav__links li{
     display: inline-block;
-    padding: 0px 1.5rem;
+    padding: 0px 0.5rem;
+
 }
 
 .contact-button{
     padding: 0.5rem 1.25rem;
+    margin-left: 1.5rem;
     background-color: rgba(0,136,169,1);
     border: none;
     border-radius: 2rem;
@@ -69,11 +76,17 @@ header{
     color: rgba(0,136,169,0.8);
 }
 
+
+.home__content{
+    margin-left: 1rem;
+    /* background-color: cyan; */
+}
 .content_title{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 3rem;
     color: #edf0f1;
+    margin-top: 5rem;
 }
 
 .content_subtitle{
@@ -90,9 +103,10 @@ header{
 }
 
 .home__blob{
-    width: 18%;
-    /* margin-right: 5rem; */
-    margin-right: 5%;
+    width: 22%;
+    margin-top: 5rem;
+    margin-left: 10%;
+    /* background-color: crimson; */
 }
 
 .home__blob-img{
@@ -103,15 +117,21 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-left: 1%;
 }
 
 .social__list{
     list-style: none;
-    margin-right: 20rem;
+}
+
+.social{
+    margin-left: 9%;
+    margin-bottom: 1%;
 }
 
 .social__icon{
     font-size: 1.5rem;
+    padding: .5rem;
 }
 
 .contact-button-content{
@@ -123,11 +143,25 @@ header{
     font-size: 1.2rem;
 }
 
+.contact-button-content i{
+    background-color: rgba(0,136,169,0);
+}
+
+.contact-button-content:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+
 .scroll__btn{
     color: #edf0f1;
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     position:relative;
     top: 25rem;
-    right: 60rem;
+    right: 72%;
+}
+
+.scroll__btn:hover{
+    color: rgba(0,136,169,1);;
+    cursor: pointer;
 }
