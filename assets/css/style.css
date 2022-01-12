@@ -1,0 +1,133 @@
+ /* ========================== GOOGLE FONTS ========================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* ========================== VARIABLES CSS ========================== */
+/* :root{
+    --font-weight: 600;
+    --font-color: #22222A;
+    --fonto-color-hover: #6C5BCF
+} */
+
+
+
+/* ========================== CSS ========================== */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    background-color: #24252A;
+}
+/* ========================== HOME ========================== */
+
+li, a, button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #edf0f1;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align:center;
+    align-items: center;
+    padding: 2.5rem 10%;
+}
+
+.logo {
+    width: 5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 1.5rem;
+}
+
+.contact-button{
+    padding: 0.5rem 1.25rem;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact-button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+.nav__items:hover{
+    color: rgba(0,136,169,0.8);
+}
+
+.content_title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #edf0f1;
+}
+
+.content_subtitle{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #edf0f1;
+}
+
+.content__p{
+    font-family: 'Poppins', sans-serif;
+    color: #edf0f1;
+    margin-bottom: 5rem;
+}
+
+.home__blob{
+    width: 18%;
+    /* margin-right: 5rem; */
+    margin-right: 5%;
+}
+
+.home__blob-img{
+    width:100% ;
+}
+
+.home__section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social__list{
+    list-style: none;
+    margin-right: 20rem;
+}
+
+.social__icon{
+    font-size: 1.5rem;
+}
+
+.contact-button-content{
+    padding: 1.2rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    gap: 10px;
+    background-color: rgba(0,136,169,1);
+    font-size: 1.2rem;
+}
+
+.scroll__btn{
+    color: #edf0f1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    position:relative;
+    top: 25rem;
+    right: 60rem;
+}
